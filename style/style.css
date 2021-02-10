@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid rgb(238, 238, 238);
+    background-color: rgb(228, 115, 62);
+}
+
+#logo-hacktiv{
+    margin-top: 30px;
+}
+
+.box{
+    margin-bottom: 65px;
+    width: 500px;
+    height: 170px;
+    background-color: rgb(44, 135, 221);
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(133, 129, 129); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+
+.row .label{
+    margin-top: 4px;
+    width: 90px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.form h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+.box input{
+    width: 30px;
+    height: 28px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.3px solid rgb(189, 189, 189);
+}
+
+.box input{
+    width: 260px;
+}
+
+.input input{
+    margin-top: 6px;
+    padding: 3px;
+}
+
+#btn-sub{
+    width: 260px;
+    height: 30px;
+    margin-left: 18px;
+    color:white;
+    border:1px solid rgb(255, 255, 255);
+    background-color:rgb(255, 128, 70);
+    border-radius: 4px;
+}
+
+#btn-sub:hover{
+    cursor: pointer;
+    border: 1px solid rgb(255, 128, 70);;
+    color:rgb(255, 128, 70);
+    background-color:rgb(243, 243, 243);
+}
+
+.result{
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/papers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#info{
+    margin-top: 40px;
+    font-size: 28px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#result-box{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row-result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.row-result .label-result{
+    margin-top: 6px;
+    width: 210px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+
+.input-result{
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+}
+
+.input-result input{
+    width: 150px;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+.input-result textarea{
+    color: black;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+span{
+    margin-top: -50px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    text-shadow: 1px 1px black;
+    transition: all 0.5s;
+}
+
+span:hover{
+    cursor: pointer;
+    font-size: 15px;
+    /* text-shadow: 1px 1px white; */
+    transition: all 0.5s;
+}
+
+.dataBase{
+    width: 400px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+}
+
+table thead{
+    background-color: rgb(228, 228, 228);
+    color: rgb(3, 3, 3);
+}
+
+
+table tbody{
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 65, 65);
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+  
+table {
+    /* display: none; */
+    margin-top: 30px;
+    width: 70%;
+    height: 70%;
+    border-collapse: collapse;
+}
+
+
+
+

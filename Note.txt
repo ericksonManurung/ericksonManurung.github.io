@@ -1,0 +1,23 @@
+Petunjuk:
+1. isi form di sebelah kiri (NIK dan TGL lahir)
+2. Kemudian klick Button submit
+3. Untuk Melihat database, klick text di bawah form
+4. hasil akan muncul di sebelah Kanan
+
+
+Validasi:
+1. Ketika NIK dan tanggal Lahir tidak di isi
+2. Ketika NIK tidak di isi
+3. Ketika Tgl Lahir tidak di isi
+4. ketika Nik Atau tanggal Lahir salah
+
+hasil:
+1. Apabila Negatif hasil background hijau
+2. Apabila positif hasil background merah
+3. Apabila Menunggu hasil background kuning
+
+
+data:
+Ardi, 	  Nik: 111, tgl_lahir: 010194
+Idham, 	  NIk: 112, tgl_lahir: 010296
+Erickson, Nik: 113, tgl_lahir: 200592

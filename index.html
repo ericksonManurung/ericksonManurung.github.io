@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktiv Cek SWAB</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/hacktiv8.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+          <img src="img/hacktiv8.png" id='logo-hacktiv' alt="logo Hacktive8">
+            <h1>Hacktiv Cek SWAB</h1>
+            <div class="box">
+              <div class="row">
+                <div class="label">
+                  <label>NIK</label>
+                </div>
+                <div class="input">
+                  : &nbsp;&nbsp;&nbsp;<input type="text" id="nik" autocomplete="off" placeholder="Masukan NIK" onkeypress="return hanyaAngka(event)">
+                </div>
+              </div>
+              <div class="row">
+                <div class="label">
+                  <label>Tgl Lahir</label>
+                </div>
+                <div class="input">
+                  : &nbsp;&nbsp;&nbsp;<input type="text" id="tanggal_lahir" autocomplete="off" placeholder="Masukan Tgl Lahir ('ddmmyy')" onkeypress="return hanyaAngka(event)">
+                </div>
+              </div>
+              <div class="row">
+                <div class="label">
+                  <label style="display: none;">Tgl Lahir</label>
+                </div>
+                <div class="input">
+                  <button id="btn-sub">Submit</button>
+                </div>
+                
+              </div>
+              
+            </div>
+            <span id='klick'>Klick disini bila ingin melihat Database</span>
+            <span id='hide'>Klick disini untuk Menyembunyikan Database</span>
+            <div class="dataBase">
+              <table id='data'>
+                <thead>
+                  <tr>
+                    <th>Nama</th>
+                    <th>NIK</th>
+                    <th>Tanggal Lahir</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ardi</td>
+                    <td>111</td>
+                    <td>010194</td>
+                  </tr>
+                  <tr>
+                    <td>Idham</td>
+                    <td>112</td>
+                    <td>010296</td>
+                  </tr>
+                  <tr>
+                    <td>Erickson</td>
+                    <td>113</td>
+                    <td>200592</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+        </div>
+        <div class="result">
+
+          <h2 id="info">Hallo Selamat Datang di Hacktiv Cek SWAB. <br><br><br>untuk mengecek hasil swab kamu.
+            <br>silahkan isi form di sebelah kiri terlebih dahulu
+            <br>dan pastikan terisi dengan benar yah.. <br><br><br>Terimakasihhh..</h2>
+          <!-- <h2></h2> -->
+
+          <div id="result-box">
+            <div class="row-result">
+              <div class="label-result">
+                <label>Nama</label>
+              </div>
+              <div class="input-result">
+                <input type="text" id="result-name" disabled>
+              </div>
+            </div>
+            <div class="row-result">
+              <div class="label-result">
+                <label>Usia</label>
+              </div>
+              <div class="input-result">
+                <input type="text" id="result-usia" disabled>
+              </div>
+            </div>
+            <div class="row-result">
+              <div class="label-result">
+                <label>Jenis Pemeriksaan</label>
+              </div>
+              <div class="input-result">
+                <input type="text" id="result-jenis" disabled>
+              </div>
+            </div>
+            <div class="row-result">
+              <div class="label-result">
+                <label>Tanggal Swab</label>
+              </div>
+              <div class="input-result">
+                <input type="text" id="result-tglSwab" disabled>
+              </div>
+            </div>
+            <div class="row-result">
+              <div class="label-result">
+                <label>Hasil</label>
+              </div>
+              <div class="input-result">
+                <input type="text" id="result-hasil" disabled>
+              </div>
+            </div>
+            <div class="row-result">
+              <div class="label-result">
+                <label>Pesan</label>
+              </div>
+              <div class="input-result">
+                <textarea name="" id="result-pesan" cols="35" rows="5" disabled ></textarea>
+              </div>
+            </div>
+          </div>          
+        </div>
+    </div>
+<script src="script/script.js"></script>
+</body>
+</html>
